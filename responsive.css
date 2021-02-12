@@ -1,0 +1,156 @@
+@media only screen and (max-width: 992px) {
+    .background__caption {
+        width: 85%;
+    }
+
+    .background__title {
+        font-size: 3.5rem;
+    }
+
+    .about__title {
+        font-size: 2.5rem;
+    }
+
+    .counter-section__title {
+        font-size: 1.3rem;
+    }
+
+    .footer__link {
+        font-size: 1.3rem;
+    }
+
+    .text__description {
+        font-size: 1.3rem;
+    }
+
+    .color-1 {
+
+        font-size: 1.3rem;
+    }
+
+    .order-1 {
+        order: -5
+    }
+
+    .order-2 {
+        order: -7;
+        margin-bottom: 2rem
+    }
+
+    .photo1 {
+        margin-top: 2rem;
+    }
+    .testimonial__image {
+        width: 120px !important;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .background__caption {
+        width: 95%;
+    }
+
+    .bar-1, .bar-2, .bar-3 {
+        display: block;
+    }
+    .main__menu{display: none!important;}
+    .header__logo{display: none!important;}
+
+
+    .background__title {
+        font-size: 3.3rem;
+    }
+
+    .about__title {
+        font-size: 2.2rem;
+    }
+
+    .counter-section__title {
+        font-size: 1.2rem;
+    }
+
+    .footer__link {
+        font-size: 1.2rem;
+    }
+
+    .color-1 {
+        font-size: 1.2rem;
+    }
+
+    .text__description {
+        font-size: 1.2rem;
+    }
+
+    .counter-section-btn {
+        margin-bottom: 2rem;
+    }
+
+    .person__content {
+        top: 10%;
+        bottom: 10%;
+    }
+
+    .footer__footer {
+        text-align: center;
+    }
+
+    .btn__footer {
+        margin-bottom: 2rem;
+    }
+
+    .gallery {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photo4 {
+        margin-top: 2rem
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .background__title {
+        font-size: 3rem;
+    }
+
+    .about__title {
+        font-size: 2rem;
+    }
+
+    .counter-section__title {
+        font-size: 1.1rem;
+    }
+
+    .footer__link {
+        font-size: 1.1rem;
+    }
+
+    .color-1 {
+        font-size: 1.1rem;
+    }
+
+    .text__description {
+        font-size: 1.1rem;
+    }
+
+    .background__caption, .about__caption, .link__item, .service__caption, .counter-section__description, .text__caption, .address__item {
+        font-size: 0.9rem
+    }
+
+    .callto-section__content > p {
+        font-size: 0.9rem
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .background__title {
+        font-size: 2.5rem;
+    }
+}
+

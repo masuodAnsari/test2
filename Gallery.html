@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="">
+<head>
+    <title>Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+<header>
+    <div class="nav-1">
+        <img src="img/logo.png" class=" header__logo1">
+        <ul class=" p-0 m-0 list-style-type">
+            <li class="main__item main__item1 text-white active p-0"><a class="main__link">خانه</a></li>
+            <li class="main__item main__item1 text-white transition p-0"><a class="main__link">درباره ما</a></li>
+            <li class="main__item main__item1 text-white transition p-0"><a class="main__link">وبلاگ</a></li>
+            <li class="main__item main__item1 text-white transition p-0"><a class="main__link">گالری</a></li>
+            <li class="main__item main__item1 text-white transition p-0"><a class="main__link">تماس با ما</a></li>
+        </ul>
+
+    </div>
+    <div class="container">
+        <div class="nav d-flex align-items-center justify-content-between">
+            <ul class="main__menu d-flex align-items-center p-0 m-0 list-style-type">
+                <li class="main__item text-white active pr-0"><a class="main__link">خانه</a></li>
+                <li class="main__item text-white transition"><a class="main__link">درباره ما</a></li>
+                <li class="main__item text-white transition"><a class="main__link">وبلاگ</a></li>
+                <li class="main__item text-white transition"><a class="main__link">گالری</a></li>
+                <li class="main__item text-white transition"><a class="main__link">تماس با ما</a></li>
+            </ul>
+            <div class="bars cursor-pointer" onclick="show(this)">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+            </div>
+            <img src="img/logo.png" class="header__logo">
+        </div>
+    </div>
+</header>
+<!----->
+<main>
+    <section class="title">
+        <div class="container">
+            <p class="m-0 text-white">گالری</p>
+        </div>
+    </section>
+
+    <section class="all__photo py-70">
+        <div class="container">
+            <nav class="menu__photo">
+                <ul class="main__photo d-flex align-items-center p-0 list-style-type justify-content-center">
+                    <li class="photo__item text-white"><a class="transition photo__link">همه عکس ها</a></li>
+                    <li class="photo__item text-white"><a class="transition photo__link"> دیگر </a>
+                    </li>
+                    <li class="photo__item text-white"><a class="transition photo__link"> همایش </a></li>
+                    <li class="photo__item text-white"><a class="transition photo__link"> مدل </a></li>
+                    <li class="photo__item text-white"><a class="transition photo__link">مد </a></li>
+                </ul>
+            </nav>
+            <div class="row">
+                <div class="images-1 col-12 col-md-6 col-lg-3">
+                    <div class="photo-1">
+                        <img src="img/gallery/gallery-2.jpg" class="w-100">
+                    </div>
+                    <div class="photo-2">
+                        <img src="img/gallery/gallery-3.jpg" class="w-100 image__photo">
+                    </div>
+                </div>
+                <div class="images-2 col-12 col-md-6 col-lg-3">
+                    <div class="photo4">
+                        <img src="img/gallery/gallery-4.jpg" class="w-100">
+                    </div>
+                    <div class="photo-3">
+                        <img src="img/gallery/gallery-5.jpg" class="w-100 image__photo">
+                    </div>
+                </div>
+                <div class="images-3 col-12 col-md-6 col-lg-6">
+                    <div class="photo1">
+                        <img src="img/gallery/gallery-1.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="images-4 col-12 col-md-6 col-lg-6">
+                    <div class="photo-4 mt-2" id="photo-4">
+                        <img src="img/gallery/gallery-8.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="images-5 col-12 col-md-6 col-lg-3">
+                    <div class="photo-6 mt-2">
+                        <img src="img/gallery/gallery-6.jpg" class="w-100">
+                    </div>
+                </div>
+                <div class="images-6 col-12 col-md-6 col-lg-3">
+                    <div class="photo-2 mt-2">
+                        <img src="img/gallery/gallery-7.jpg" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+<!------>
+<footer class="py-70 footer">
+    <div class="container">
+        <div class="row footer__footer">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="footer__content">
+                    <img src="img/logo.png">
+                    <ul class="footer__address  p-0 list-style-type mt-2">
+                        <li class="address__item ">آدرس : ایران -- خراسان جنوبی</li>
+                        <li class="address__item ">تلفن : +98 123456789</li>
+                        <li class="address__item ">ایمیل : hello@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="footer__content">
+                    <a class="footer__link cursor-pointer text-white">لینک‌های مفید</a>
+                    <ul class="footer__links  p-0 list-style-type mt-2">
+                        <li class="link__item cursor-pointer">سرویس ها</li>
+                        <li class="link__item cursor-pointer"> درباره ما</li>
+                        <li class="link__item cursor-pointer"> مدل</li>
+                        <li class="link__item cursor-pointer"> تماس با ما</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="footer__form">
+                    <p class="text-white form__title">عضویت خبرنامه</p>
+                    <form class="mt-2">
+                        <input type="text" placeholder="ایمیل خود را وارد کنید" class="form__input">
+                        <a class="btn btn__footer">ارسال</a>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="footer__instagram">
+                    <p class="text-white form__title">اینستاگرام</p>
+                    <ul class="gallery d-flex p-0 list-style-type flex-wrap">
+                        <li class="instagram__img"><img src="img/instagram/instagram-1.jpg" class="insta__image"></li>
+                        <li class="instagram__img"><img src="img/instagram/instagram-2.jpg" class="insta__image"></li>
+                        <li class="instagram__img"><img src="img/instagram/instagram-3.jpg" class="insta__image"></li>
+                        <li class="instagram__img"><img src="img/instagram/instagram-4.jpg" class="insta__image"></li>
+                        <li class="instagram__img"><img src="img/instagram/instagram-5.jpg" class="insta__image"></li>
+                        <li class="instagram__img"><img src="img/instagram/instagram-6.jpg" class="insta__image"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="js/script.js" type="text/javascript">
+
+</script>
+
+</html>
